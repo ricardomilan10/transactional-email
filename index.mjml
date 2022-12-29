@@ -1,0 +1,84 @@
+<mjml>
+<mj-head>
+    <mj-style>
+        *{
+            box-sizing:border-box;
+        }
+    </mj-style>
+    <mj-style>
+        .divider{
+             height:"20px"; 
+             width:"100%" ;
+             border:"2px solid #83csbe";
+             background:none;
+        }
+        .order-description{
+           line-height:"20px" ;
+        }
+       
+    </mj-style>
+</mj-head>
+<mj-body>
+    <mj-section background-color="#90CAF9">
+        <mj-column>
+            <mj-image width="250px" align="center" src="http://127.0.0.1:5500/assets/nikelogo.png"/>
+            <mj-divider border-width="1.5px" border-style="solid" border-color="#2196F3" padding-top="30px"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://127.0.0.1:5500/assets/nikeairmax95.png" border-radius="20px" />
+            <mj-text align="center">
+                <h1>Your order has been shipped</h1>
+                <h2>Order Number: 56979030203</h2>
+                <p>Hi Warren Wilkinson,</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                <p>Nike Team</p>
+            </mj-text>
+            <mj-button background-color="#E29578" color="white" >TRACK ORDER</mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column >
+            <mj-text font-weight="bold">
+                <p >ORDER SUMMERY</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column >
+            <mj-text line-height="20px">
+               <h2>Delivery Address</h2>
+               <p>Warren Wilkinson 6332 Wishing Bluff Valley, Bumblebee, Nebraska, 69249-2302</p>
+               <p>Via: FedEx</p> 
+            </mj-text>
+        </mj-column>
+        <mj-column >
+            <mj-text line-height="20px">
+               <h2>Billing Information</h2>
+               <p>Warren Wilkinson 6332 Wishing Bluff Valley, Bumblebee, Nebraska, 69249-2302</p>
+               <p>Via: Credit Card</p> 
+            </mj-text>
+        </mj-column>
+        <mj-column >
+            <mj-text line-height="20px">
+               <h2>Order</br> Summary</h2>
+               <p >Products: $29.99
+               </br>
+                   Delivery: $7.00
+               </p>
+               <p>Tax:$0.00
+               </br> 
+                  Total:$36.99
+               </p> 
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    
+</mj-body>
+
+</mjml>
