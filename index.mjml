@@ -1,5 +1,6 @@
 <mjml>
 <mj-head>
+    <mj-breakpoint width="600px" />
     <mj-style>
         *{
             box-sizing:border-box;
@@ -27,21 +28,22 @@
     </mj-section>
 
     <mj-section background-color="#fff">
-        <mj-column>
-            <mj-image src="http://127.0.0.1:5500/assets/nikeairmax95.png" border-radius="20px" />
-            <mj-text align="center">
-                <h1>Your order has been shipped</h1>
-                <h2>Order Number: 56979030203</h2>
-                <p>Hi Warren Wilkinson,</p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                <p>Nike Team</p>
-            </mj-text>
-            <mj-button background-color="#E29578" color="white" >TRACK ORDER</mj-button>
-        </mj-column>
+            <mj-column>
+                <mj-image src="http://127.0.0.1:5500/assets/nikeairmax95.png" border-radius="20px" />
+                <mj-text align="center" line-height="20px">
+                    <h1>Your order has been shipped</h1>
+                    <h2>Order Number: 56979030203</h2>
+                    <p>Hi Warren Wilkinson,</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                    <p>Nike Team</p>
+                </mj-text>
+                <mj-button background-color="#E29578" color="white" >TRACK ORDER</mj-button>
+            </mj-column>
     </mj-section>
 
     <mj-section background-color="#fff">
         <mj-column >
+         <mj-divider border-width="1.5px" border-style="solid" border-color="#2196F3" padding-top="30px"/>
             <mj-text font-weight="bold">
                 <p >ORDER SUMMERY</p>
             </mj-text>
@@ -70,15 +72,124 @@
                </br>
                    Delivery: $7.00
                </p>
-               <p>Tax:$0.00
+               <p >Tax:$0.00
                </br> 
-                  Total:$36.99
+                 <span style="font-weight:bold">Total:$36.99</span>
                </p> 
             </mj-text>
         </mj-column>
     </mj-section>
 
+    <mj-section background-color="#fff">
+        <mj-column >
+            <mj-divider border-width="1.5px" border-style="solid" border-color="#2196F3" padding-top="30px"/>
+            <mj-text font-weight="bold">
+                <p>SHIPPED ITEMS</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-group>
+            <mj-column>
+                <mj-text>
+                    <h2>Air Max 95</h2>
+                    <p>Size: 43</p>
+                    <p>Colour: Black</p>
+                    <h2>$29.99</h2>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image src="http://127.0.0.1:5500/assets/nikeairmax95blkwht.png" border-radius="20px" width="250px" ></mj-image>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-button background-color="#E29578" color="white" >TRACK ORDER</mj-button>
+            <mj-divider border-width="1.5px" border-style="solid" border-color="#2196F3" padding-top="30px"/>
+        </mj-column>
+    </mj-section>
     
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-image src="http://127.0.0.1:5500/assets/worldwide.png"></mj-image>
+            <mj-text align="center" line-height="20px">Worldwide delivery</mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-image src="http://127.0.0.1:5500/assets/support.png"></mj-image>
+            <mj-text align="center" line-height="20px">The best support 24/7</mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-image src="http://127.0.0.1:5500/assets/guarantee.png"></mj-image>
+            <mj-text align="center" line-height="20px">Warranties and quality</mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-image src="http://127.0.0.1:5500/assets/gift-box.png"></mj-image>
+            <mj-text align="center" line-height="20px">Bonuses and Gifts</mj-text>
+        </mj-column>
+        
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-divider border-width="1.5px" border-style="solid" border-color="#2196F3" padding-top="30px"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f2f2f2">
+        <mj-column>
+            <mj-text align="center">
+                <h1>Thank you for your attention!</h1>
+                <h1>This little present is especially for you.</h1>
+                <p style="line-height:20px;">Use this promo code when placing your order and get a 10% discount and free shipping.</p>
+                <h2 style="line-height:20px;padding-top: 10px;padding-bottom: 10px;background-color:#fff;border-radius: 20px">CYBERMONDAY22</h2>
+            </mj-text>
+             <mj-button background-color="#E29578" color="white" >USE NOW</mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column >
+            <mj-image src="http://127.0.0.1:5500/assets/nikelogogrey.png" alt="" width="100px"  />
+        </mj-column>
+        
+        <mj-group>      
+            <mj-column >
+                <mj-social font-size="15px" icon-size="30px" mode="horizontal" >
+                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/instagram.png" padding="10px"></mj-social-element>
+                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/youtube.png" padding="10px"></mj-social-element>
+                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/facebook.png"padding="10px"></mj-social-element>
+                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/twitter.png"padding="10px"></mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-group>    
+    </mj-section>
+    <mj-section background-color="#fff">
+        <mj-column>
+            <mj-divider border-width="3px" border-style="solid" border-color="#f2f2f2" padding-top="0px"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+        <mj-column >
+            <mj-text>
+                <p>Contact Us</p>
+                <p>Support</p>
+                <p>Ask the community</p>
+                <p>Unsubscribe</p>
+            </mj-text>
+        </mj-column>
+        <mj-column >
+            <mj-text>
+                <p>Nike</p>
+                <p>6578 Harvest Field, June Bug,</p>
+                <p>Quebec, CA 748-8448</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
 </mj-body>
 
 </mjml>
