@@ -19,73 +19,83 @@
         .line{
             display:block;
             width:100%;
-            border-top: 1px solid #1B4965;
+            border-top: 1px solid #0D47A1;
         }
         .tab{
-            background-color:#1B4965;
+            background-color:#0D47A1;
             color:white;
             padding-top:10px;
             padding-bottom:10px;
             padding-left:10px;
             border-radius:0px 0px 20px 20px;
             margin:0px;
-            width:250px;
+            max-width:250px;
             text-align:center
         }
        
     </mj-style>
 </mj-head>
 <mj-body>
-    <mj-section background-color="#90CAF9">
+
+    <mj-raw>
+        <!-- Header -->
+    </mj-raw>
+
+    <mj-section background-color="#1E88E5">
         <mj-column>
-            <mj-image width="250px" align="center" src="http://127.0.0.1:5500/assets/nikelogo.png"/>
-            <mj-divider border-width="1.5px" border-style="solid" border-color="#2196F3" padding-top="30px"/>
+            <mj-image width="250px" align="center" src="https://i.imgur.com/DpW48ku.png"/>
+            <mj-divider border-width="2px" border-style="solid" border-color="#fff" padding-top="30px"/>
         </mj-column>
     </mj-section>
 
-    <mj-section background-color="#CAE9FF">
+    <mj-raw>
+        <!-- Hero -->
+    </mj-raw>
+
+    <mj-section background-color="#BBDEFB">
             <mj-column padding-top="50px">
-                <mj-image src="http://127.0.0.1:5500/assets/nikeairmax95bluewhite.png" border-radius="20px" width="500px"/>
+                <mj-image src="https://i.imgur.com/UQABF75.jpg" border-radius="20px" width="500px"/>
                 <mj-text align="center" line-height="20px">
-                    <h1 style="color:#1B4965;">Your order has been shipped</h1>
+                    <h1 style="color:#0D47A1;">Your order has been shipped</h1>
                     <h2 style="color:#E29578;" >Order Number: 56979030203</h2>
-                    <p>Hi Warren Wilkinson,</p>
+                    <p>Hi Jack Johnson,</p>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                    <p>Nike Team</p>
+                    <p>- Nike Team</p>
                 </mj-text>
-                <mj-button background-color="#E29578" color="white" font-weight="bold" >TRACK ORDER</mj-button>
+                <mj-button background-color="#E29578" color="white" font-weight="bold" href="#" >TRACK ORDER</mj-button>
             </mj-column>
     </mj-section>
 
-    <mj-section background-color="#CAE9FF">
+    <mj-raw>
+        <!-- Order Section -->
+    </mj-raw>
+
+    <mj-section background-color="#BBDEFB">
         <mj-column >
             <mj-text font-weight="bold">
                 <span class="line"></span>
-                <p class="tab">ORDER SUMMERY</p>
+                <p class="tab">ORDER SUMMARY</p>
             </mj-text>
-
-        </mj-column>
-       
+        </mj-column>    
     </mj-section>
-
-    <mj-section background-color="#CAE9FF">
+    <mj-section background-color="#BBDEFB">
         <mj-column >
             <mj-text line-height="20px">
-               <h2 style="color:#1B4965;">Delivery Address</h2>
-               <p>Warren Wilkinson 6332 Wishing Bluff Valley, Bumblebee, Nebraska, 69249-2302</p>
+               <h2 style="color:#0D47A1;">Delivery Address</h2>
+               <p>Jack Johnson 6332 Wishing Bluff Valley, Bumblebee, Nebraska, 69249-2302</p>
                <p>Via: FedEx</p> 
             </mj-text>
         </mj-column>
         <mj-column >
             <mj-text line-height="20px">
-               <h2 style="color:#1B4965;">Billing Information</h2>
-               <p>Warren Wilkinson 6332 Wishing Bluff Valley, Bumblebee, Nebraska, 69249-2302</p>
+               <h2 style="color:#0D47A1;">Billing Information</h2>
+               <p>Jack Johnson 6332 Wishing Bluff Valley, Bumblebee, Nebraska, 69249-2302</p>
                <p>Via: Credit Card</p> 
             </mj-text>
         </mj-column>
         <mj-column >
             <mj-text line-height="20px">
-               <h2 style="color:#1B4965;">Order</br> Summary</h2>
+               <h2 style="color:#0D47A1;">Order</br> Summary</h2>
                <p >Products: $29.99
                </br>
                    Delivery: $7.00
@@ -98,88 +108,99 @@
         </mj-column>
     </mj-section>
 
-    <mj-section background-color="#CAE9FF">
+    <mj-raw>
+        <!-- Shipped Section -->
+    </mj-raw>
+
+    <mj-section background-color="#BBDEFB">
         <mj-column>
             <mj-text font-weight="bold">
                <span class="line"></span>
-                <p class="tab">SHIPPED ITEMS</p>
+               <p class="tab">SHIPPED ITEMS</p>
             </mj-text>
         </mj-column>
     </mj-section>
-
-    <mj-section background-color="#CAE9FF">
+    <mj-section background-color="#BBDEFB">
         <mj-group>
             <mj-column>
                 <mj-text>
-                    <h2 style="color:#1B4965;">Air Max 95</h2>
+                    <h2 style="color:#0D47A1;">Air Max 95</h2>
                     <p>Size: 43</p>
                     <p>Colour: Black</p>
-                    <h2 style="color:#1B4965;">$29.99</h2>
+                    <h2 style="color:#0D47A1;">$29.99</h2>
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-image src="http://127.0.0.1:5500/assets/nikeairmax95bluewhite.png" border-radius="20px" width="250px" ></mj-image>
+                <mj-image src="https://i.imgur.com/UQABF75.jpg" border-radius="20px" width="250px" ></mj-image>
             </mj-column>
         </mj-group>
     </mj-section>
-
-    <mj-section background-color="#CAE9FF">
-        <mj-column>
-            <mj-button background-color="#E29578" color="white" font-weight="bold" >TRACK ORDER</mj-button>
-            <mj-divider border-width="1.5px" border-style="solid" border-color="#1B4965" padding-top="30px"/>
+    <mj-section background-color="#BBDEFB">
+        <mj-column background-color="#BBDEFB">
+            <mj-button background-color="#E29578" color="white" font-weight="bold" href="#">TRACK ORDER</mj-button>
+            <mj-divider border-width="2px" border-style="solid" border-color="#0D47A1" padding-top="30px"/>
         </mj-column>
     </mj-section>
     
-    <mj-section background-color="#CAE9FF">
+    <mj-raw>
+        <!-- Icon section -->
+    </mj-raw>
+
+    <mj-section background-color="#BBDEFB">
         <mj-column>
-            <mj-image src="http://127.0.0.1:5500/assets/worldwide.png"></mj-image>
+            <mj-image src="https://i.imgur.com/gIiJVKF.png"></mj-image>
             <mj-text align="center" line-height="20px">Worldwide delivery</mj-text>
         </mj-column>
         <mj-column>
-            <mj-image src="http://127.0.0.1:5500/assets/support.png"></mj-image>
+            <mj-image src="https://i.imgur.com/iEseif6.png"></mj-image>
             <mj-text align="center" line-height="20px">The best support 24/7</mj-text>
         </mj-column>
         <mj-column>
-            <mj-image src="http://127.0.0.1:5500/assets/guarantee.png"></mj-image>
+            <mj-image src="https://i.imgur.com/pjMLxh2.png"></mj-image>
             <mj-text align="center" line-height="20px">Warranties and quality</mj-text>
         </mj-column>
         <mj-column>
-            <mj-image src="http://127.0.0.1:5500/assets/gift-box.png"></mj-image>
+            <mj-image src="https://i.imgur.com/9fWPduv.png"></mj-image>
             <mj-text align="center" line-height="20px">Bonuses and Gifts</mj-text>
+        </mj-column> 
+    </mj-section>
+    <mj-section background-color="#BBDEFB">
+        <mj-column>
+            <mj-divider border-width="2px" border-style="solid" border-color="#0D47A1" padding-top="30px"/>
         </mj-column>
-        
     </mj-section>
 
-    <mj-section background-color="#CAE9FF">
-        <mj-column>
-            <mj-divider border-width="1.5px" border-style="solid" border-color="#1B4965" padding-top="30px"/>
-        </mj-column>
-    </mj-section>
+    <mj-raw>
+        <!-- Promo Section -->
+    </mj-raw>
 
     <mj-section background-color="#f2f2f2">
         <mj-column>
             <mj-text align="center">
-                <h1 style="color:#1B4965;">Thank you for your attention!</h1>
-                <h1 style="color:#1B4965;">This little present is especially for you.</h1>
+                <h1 style="color:#0D47A1;">Thank you for your attention!</h1>
+                <h1 style="color:#0D47A1;">This little present is especially for you.</h1>
                 <p style="line-height:20px;">Use this promo code when placing your order and get a 10% discount and free shipping.</p>
-                <h2 style="line-height:20px;padding-top: 10px;padding-bottom: 10px;background-color:#fff;border-radius: 20px;color:#1B4965;">CYBERMONDAY22</h2>
+                <h2 style="line-height:20px;padding-top: 10px;padding-bottom: 10px;background-color:#fff;border-radius: 20px;color:#0D47A1;">CYBERMONDAY22</h2>
             </mj-text>
-             <mj-button background-color="#E29578" color="white" >USE NOW</mj-button>
+             <mj-button background-color="#E29578" color="white" font-weight="bold" href="#">USE NOW</mj-button>
         </mj-column>
     </mj-section>
 
+    <mj-raw>
+        <!-- Footer Section -->
+    </mj-raw>
+
     <mj-section background-color="#fff">
         <mj-column >
-            <mj-image src="http://127.0.0.1:5500/assets/nikelogogrey.png" alt="" width="100px"  />
+            <mj-image src="https://i.imgur.com/58WivT8.png" alt="" width="100px"  />
         </mj-column>
-        
         <mj-group>      
             <mj-column >
                 <mj-social font-size="15px" icon-size="30px" mode="horizontal" >
-                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/instagram.png" padding="10px"></mj-social-element>
-                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/youtube.png" padding="10px"></mj-social-element>
-                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/facebook.png"padding="10px"></mj-social-element>
-                    <mj-social-element name="" href="url" src="http://127.0.0.1:5500/assets/twitter.png"padding="10px"></mj-social-element>
+                    <mj-social-element name="" href="url" src="https://i.imgur.com/EJZWL66.png" padding="10px"></mj-social-element>
+                    <mj-social-element name="" href="url" src="https://i.imgur.com/qBRxtVh.png" padding="10px"></mj-social-element>
+                    <mj-social-element name="" href="url" src="https://i.imgur.com/M3fZN8L.png" padding="10px"></mj-social-element>
+                    <mj-social-element name="" href="url" src="https://i.imgur.com/MvOGgxA.png" padding="10px"></mj-social-element>
                 </mj-social>
             </mj-column>
         </mj-group>    
@@ -189,25 +210,26 @@
             <mj-divider border-width="3px" border-style="solid" border-color="#f2f2f2" padding-top="0px"/>
         </mj-column>
     </mj-section>
-
     <mj-section background-color="#fff">
         <mj-column >
-            <mj-text>
-                <p>Contact Us</p>
-                <p>Support</p>
-                <p>Ask the community</p>
-                <p>Unsubscribe</p>
-            </mj-text>
-        </mj-column>
-        <mj-column >
-            <mj-text>
-                <p>Nike</p>
-                <p>6578 Harvest Field, June Bug,</p>
-                <p>Quebec, CA 748-8448</p>
-            </mj-text>
-        </mj-column>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px">*Eligible items only. Redeem points for cash back and other options. Requires account with Nike in good standing. <a href="#" style="text-decoration:underline;color:#757575;">Terms</a> and store exclusions apply.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="white" padding="0px">
+            <mj-column >
+                <mj-text color="rgb(117, 117, 117)" font-size="10px" > <a href="#" style="text-decoration:underline;color:#757575;" >Views this email online</a></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="white" padding="0px" >
+            <mj-column >
+                <mj-text color="rgb(117, 117, 117)" font-size="10px"> You are receiving this message based on your Nike account settings. <a href="#" style="text-decoration:underline;color:#757575;">Unsubscribe</a> or adjust your  <a href="#" style="text-decoration:underline;color:#757575;">email preferences.</a></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="white" padding="10px 0px 60px 0px">
+            <mj-column>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px">Copyright © 2022 Nike LLC All rights reserved. 963 E. 4th Street, Los Angeles, CA 90013  </mj-text>
+            </mj-column>
     </mj-section>
-
 </mj-body>
 
 </mjml>
